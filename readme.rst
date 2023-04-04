@@ -8,7 +8,8 @@ This version is an adaptation from original https://github.com/espressif/esp32-d
 
 Based on initial effort from https://github.com/PilnyTomas/esp32-doom/commit/ac5eb12383f25b722338cc3dc71e19dc9972674c  
 
-Added necessary changes to make it run fine in the ESP-WROVER-KIT.\
+Added necessary changes to make it run fine in the ESP-WROVER-KIT.
+
 https://docs.espressif.com/projects/esp-idf/en/latest/esp32/hw-reference/esp32/get-started-wrover-kit.html
 
 Warning
