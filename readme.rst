@@ -7,6 +7,9 @@ ESP32. It runs on an ESP32 which has 4MiB of flash and 4MiB of PSRAM connected.
 This version is an adaptation from original https://github.com/espressif/esp32-doom.git to run using IDF 4.x in a ESP-WROVER-KIT board.
 There are messages from WDT, but it doesn't make the application fail.
 
+Based on initial effort from https://github.com/PilnyTomas/esp32-doom/commit/ac5eb12383f25b722338cc3dc71e19dc9972674c  
+Added necessary changes to make it run fine in the ESP-WROVER-KIT. 
+
 Warning
 -------
 
