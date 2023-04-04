@@ -255,6 +255,7 @@ static void freeUnusedMmaps() {
 			mmapHandle[i].addr=NULL;
 			printf("Freeing handle %d\n", i);
 		}
+		if (i & 0x20 == 0x20) vTaskDelay(1);  // Wdt issue?!
 	}
 }
 
@@ -332,12 +333,3 @@ char* I_FindFile(const char* wfname, const char* ext)
 void I_SetAffinityMask(void)
 {
 }
-
-
-int access(const char *path, int atype) {
-    return 1;
-}
-
-
-
-
